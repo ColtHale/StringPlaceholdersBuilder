@@ -4,7 +4,7 @@ The *old methods* of parsing strings and replacing placeholders via `string.repl
 
 ## How it works
 
-The **basic** functionality of the API, is pretty *easy* to understand. When a placeholder is added, the string specificed to be replaced ***(First @param)***, as well as the `Object` to replace it with ***Second @param***, are added to a `placeholders map`. At this point, a method is run to `apply()` **all placeholders** cached within the **Map**. **It is *usually best* to have a method such as `getMessage()` where the results of `apply()` are returned.**
+The **basic** functionality of the API, is pretty *easy* to understand. When a placeholder is added, the string specificed to be replaced ***(First @param)***, as well as the `Object` to replace it with ***(Second @param)***, are added to a `placeholders map`. At this point, a method is run to `apply()` **all placeholders** cached within the **Map**. **It is *usually best* to have a method such as `getMessage()` where the results of `apply()` are returned.**
 
 ## Usage
 
